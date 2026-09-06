@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.ipynb_checkpoints
+
+# Ignore all root text files (datasets and readme.txt)
+*.txt
+data/
+
+# Ignore local models 
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Ignore AI prompts, plans, and research papers
+agent_prompt.md
+implementation_plan.md
+walkthrough.md
+*.pdf
